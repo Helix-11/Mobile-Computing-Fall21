@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FB3866B2746B18D001E6A91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3866A2746B18D001E6A91 /* AppDelegate.swift */; };
+		3FB3866D2746B18D001E6A91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3866C2746B18D001E6A91 /* SceneDelegate.swift */; };
+		3FB3866F2746B18D001E6A91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3866E2746B18D001E6A91 /* ViewController.swift */; };
+		3FB386722746B18D001E6A91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB386702746B18D001E6A91 /* Main.storyboard */; };
+		3FB386742746B192001E6A91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB386732746B192001E6A91 /* Assets.xcassets */; };
+		3FB386772746B192001E6A91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB386752746B192001E6A91 /* LaunchScreen.storyboard */; };
+		3FB386822746B192001E6A91 /* Krohn_TableViewDisplay1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB386812746B192001E6A91 /* Krohn_TableViewDisplay1Tests.swift */; };
+		3FB3868C2746B192001E6A91 /* Krohn_TableViewDisplay1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3868B2746B192001E6A91 /* Krohn_TableViewDisplay1UITests.swift */; };
+		3FB3868E2746B192001E6A91 /* Krohn_TableViewDisplay1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3868D2746B192001E6A91 /* Krohn_TableViewDisplay1UITestsLaunchTests.swift */; };
+		3FB3869B2746B2A4001E6A91 /* ProductsDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3869A2746B2A4001E6A91 /* ProductsDisplayViewController.swift */; };
+		3FB3869D2746B37D001E6A91 /* DisplayImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB3869C2746B37D001E6A91 /* DisplayImagesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB3867E2746B192001E6A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB3865F2746B18D001E6A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB386662746B18D001E6A91;
+			remoteInfo = Krohn_TableViewDisplay1;
+		};
+		3FB386882746B192001E6A91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB3865F2746B18D001E6A91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB386662746B18D001E6A91;
+			remoteInfo = Krohn_TableViewDisplay1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FB386672746B18D001E6A91 /* Krohn_TableViewDisplay1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Krohn_TableViewDisplay1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB3866A2746B18D001E6A91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB3866C2746B18D001E6A91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FB3866E2746B18D001E6A91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FB386712746B18D001E6A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB386732746B192001E6A91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB386762746B192001E6A91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB386782746B192001E6A91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB3867D2746B192001E6A91 /* Krohn_TableViewDisplay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Krohn_TableViewDisplay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB386812746B192001E6A91 /* Krohn_TableViewDisplay1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krohn_TableViewDisplay1Tests.swift; sourceTree = "<group>"; };
+		3FB386872746B192001E6A91 /* Krohn_TableViewDisplay1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Krohn_TableViewDisplay1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB3868B2746B192001E6A91 /* Krohn_TableViewDisplay1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krohn_TableViewDisplay1UITests.swift; sourceTree = "<group>"; };
+		3FB3868D2746B192001E6A91 /* Krohn_TableViewDisplay1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Krohn_TableViewDisplay1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FB3869A2746B2A4001E6A91 /* ProductsDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsDisplayViewController.swift; sourceTree = "<group>"; };
+		3FB3869C2746B37D001E6A91 /* DisplayImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayImagesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB386642746B18D001E6A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB3867A2746B192001E6A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB386842746B192001E6A91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB3865E2746B18D001E6A91 = {
+			isa = PBXGroup;
+			children = (
+				3FB386692746B18D001E6A91 /* Krohn_TableViewDisplay1 */,
+				3FB386802746B192001E6A91 /* Krohn_TableViewDisplay1Tests */,
+				3FB3868A2746B192001E6A91 /* Krohn_TableViewDisplay1UITests */,
+				3FB386682746B18D001E6A91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB386682746B18D001E6A91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB386672746B18D001E6A91 /* Krohn_TableViewDisplay1.app */,
+				3FB3867D2746B192001E6A91 /* Krohn_TableViewDisplay1Tests.xctest */,
+				3FB386872746B192001E6A91 /* Krohn_TableViewDisplay1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB386692746B18D001E6A91 /* Krohn_TableViewDisplay1 */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3866A2746B18D001E6A91 /* AppDelegate.swift */,
+				3FB3866C2746B18D001E6A91 /* SceneDelegate.swift */,
+				3FB3866E2746B18D001E6A91 /* ViewController.swift */,
+				3FB386702746B18D001E6A91 /* Main.storyboard */,
+				3FB386732746B192001E6A91 /* Assets.xcassets */,
+				3FB386752746B192001E6A91 /* LaunchScreen.storyboard */,
+				3FB386782746B192001E6A91 /* Info.plist */,
+				3FB3869A2746B2A4001E6A91 /* ProductsDisplayViewController.swift */,
+				3FB3869C2746B37D001E6A91 /* DisplayImagesViewController.swift */,
+			);
+			path = Krohn_TableViewDisplay1;
+			sourceTree = "<group>";
+		};
+		3FB386802746B192001E6A91 /* Krohn_TableViewDisplay1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB386812746B192001E6A91 /* Krohn_TableViewDisplay1Tests.swift */,
+			);
+			path = Krohn_TableViewDisplay1Tests;
+			sourceTree = "<group>";
+		};
+		3FB3868A2746B192001E6A91 /* Krohn_TableViewDisplay1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3868B2746B192001E6A91 /* Krohn_TableViewDisplay1UITests.swift */,
+				3FB3868D2746B192001E6A91 /* Krohn_TableViewDisplay1UITestsLaunchTests.swift */,
+			);
+			path = Krohn_TableViewDisplay1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB386662746B18D001E6A91 /* Krohn_TableViewDisplay1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB386912746B192001E6A91 /* Build configuration list for PBXNativeTarget "Krohn_TableViewDisplay1" */;
+			buildPhases = (
+				3FB386632746B18D001E6A91 /* Sources */,
+				3FB386642746B18D001E6A91 /* Frameworks */,
+				3FB386652746B18D001E6A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Krohn_TableViewDisplay1;
+			productName = Krohn_TableViewDisplay1;
+			productReference = 3FB386672746B18D001E6A91 /* Krohn_TableViewDisplay1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB3867C2746B192001E6A91 /* Krohn_TableViewDisplay1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB386942746B192001E6A91 /* Build configuration list for PBXNativeTarget "Krohn_TableViewDisplay1Tests" */;
+			buildPhases = (
+				3FB386792746B192001E6A91 /* Sources */,
+				3FB3867A2746B192001E6A91 /* Frameworks */,
+				3FB3867B2746B192001E6A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB3867F2746B192001E6A91 /* PBXTargetDependency */,
+			);
+			name = Krohn_TableViewDisplay1Tests;
+			productName = Krohn_TableViewDisplay1Tests;
+			productReference = 3FB3867D2746B192001E6A91 /* Krohn_TableViewDisplay1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB386862746B192001E6A91 /* Krohn_TableViewDisplay1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB386972746B192001E6A91 /* Build configuration list for PBXNativeTarget "Krohn_TableViewDisplay1UITests" */;
+			buildPhases = (
+				3FB386832746B192001E6A91 /* Sources */,
+				3FB386842746B192001E6A91 /* Frameworks */,
+				3FB386852746B192001E6A91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB386892746B192001E6A91 /* PBXTargetDependency */,
+			);
+			name = Krohn_TableViewDisplay1UITests;
+			productName = Krohn_TableViewDisplay1UITests;
+			productReference = 3FB386872746B192001E6A91 /* Krohn_TableViewDisplay1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB3865F2746B18D001E6A91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3FB386662746B18D001E6A91 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3FB3867C2746B192001E6A91 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3FB386662746B18D001E6A91;
+					};
+					3FB386862746B192001E6A91 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3FB386662746B18D001E6A91;
+					};
+				};
+			};
+			buildConfigurationList = 3FB386622746B18D001E6A91 /* Build configuration list for PBXProject "Krohn_TableViewDisplay1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB3865E2746B18D001E6A91;
+			productRefGroup = 3FB386682746B18D001E6A91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB386662746B18D001E6A91 /* Krohn_TableViewDisplay1 */,
+				3FB3867C2746B192001E6A91 /* Krohn_TableViewDisplay1Tests */,
+				3FB386862746B192001E6A91 /* Krohn_TableViewDisplay1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB386652746B18D001E6A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB386772746B192001E6A91 /* LaunchScreen.storyboard in Resources */,
+				3FB386742746B192001E6A91 /* Assets.xcassets in Resources */,
+				3FB386722746B18D001E6A91 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB3867B2746B192001E6A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB386852746B192001E6A91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB386632746B18D001E6A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB3866F2746B18D001E6A91 /* ViewController.swift in Sources */,
+				3FB3869D2746B37D001E6A91 /* DisplayImagesViewController.swift in Sources */,
+				3FB3866B2746B18D001E6A91 /* AppDelegate.swift in Sources */,
+				3FB3866D2746B18D001E6A91 /* SceneDelegate.swift in Sources */,
+				3FB3869B2746B2A4001E6A91 /* ProductsDisplayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB386792746B192001E6A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB386822746B192001E6A91 /* Krohn_TableViewDisplay1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB386832746B192001E6A91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB3868E2746B192001E6A91 /* Krohn_TableViewDisplay1UITestsLaunchTests.swift in Sources */,
+				3FB3868C2746B192001E6A91 /* Krohn_TableViewDisplay1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB3867F2746B192001E6A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB386662746B18D001E6A91 /* Krohn_TableViewDisplay1 */;
+			targetProxy = 3FB3867E2746B192001E6A91 /* PBXContainerItemProxy */;
+		};
+		3FB386892746B192001E6A91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB386662746B18D001E6A91 /* Krohn_TableViewDisplay1 */;
+			targetProxy = 3FB386882746B192001E6A91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB386702746B18D001E6A91 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB386712746B18D001E6A91 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB386752746B192001E6A91 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB386762746B192001E6A91 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB3868F2746B192001E6A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FB386902746B192001E6A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB386922746B192001E6A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Krohn_TableViewDisplay1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Krohn-TableViewDisplay1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB386932746B192001E6A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Krohn_TableViewDisplay1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Krohn-TableViewDisplay1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FB386952746B192001E6A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Krohn-TableViewDisplay1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krohn_TableViewDisplay1.app/Krohn_TableViewDisplay1";
+			};
+			name = Debug;
+		};
+		3FB386962746B192001E6A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Krohn-TableViewDisplay1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Krohn_TableViewDisplay1.app/Krohn_TableViewDisplay1";
+			};
+			name = Release;
+		};
+		3FB386982746B192001E6A91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Krohn-TableViewDisplay1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Krohn_TableViewDisplay1;
+			};
+			name = Debug;
+		};
+		3FB386992746B192001E6A91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "nwmsu.Krohn-TableViewDisplay1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Krohn_TableViewDisplay1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB386622746B18D001E6A91 /* Build configuration list for PBXProject "Krohn_TableViewDisplay1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB3868F2746B192001E6A91 /* Debug */,
+				3FB386902746B192001E6A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB386912746B192001E6A91 /* Build configuration list for PBXNativeTarget "Krohn_TableViewDisplay1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB386922746B192001E6A91 /* Debug */,
+				3FB386932746B192001E6A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB386942746B192001E6A91 /* Build configuration list for PBXNativeTarget "Krohn_TableViewDisplay1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB386952746B192001E6A91 /* Debug */,
+				3FB386962746B192001E6A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB386972746B192001E6A91 /* Build configuration list for PBXNativeTarget "Krohn_TableViewDisplay1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB386982746B192001E6A91 /* Debug */,
+				3FB386992746B192001E6A91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FB3865F2746B18D001E6A91 /* Project object */;
+}
